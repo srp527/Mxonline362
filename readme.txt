@@ -1,6 +1,21 @@
 Git is a version control system.
 Git is free software.
 
-太阳当空照，生活没烦恼
-小鸟说早早早，你为什么背着炸药包
+git add 
+git commit -m "自定义描述"
+
+git checkout -- readme.txt
 git reset HEAD readme.txt
+
+git remote add origin git@github.com:srp527/Mxonline362.git  
+git push -u origin master
+git push origin master
+
+git clone git@github.com:srp527/Mxonline362.git
+
+
+
+
+
+
+
