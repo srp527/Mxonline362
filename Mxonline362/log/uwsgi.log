@@ -1,0 +1,366 @@
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 05:06:00 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x8b22f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x8b22f0 pid: 19492 (default app)
+spawned uWSGI master process (pid: 19492)
+spawned uWSGI worker 1 (pid: 19494, cores: 1)
+spawned uWSGI worker 2 (pid: 19495, cores: 1)
+spawned uWSGI worker 3 (pid: 19496, cores: 1)
+spawned uWSGI worker 4 (pid: 19497, cores: 1)
+spawned uWSGI worker 5 (pid: 19498, cores: 1)
+spawned uWSGI worker 6 (pid: 19499, cores: 1)
+spawned uWSGI worker 7 (pid: 19504, cores: 1)
+spawned uWSGI worker 8 (pid: 19505, cores: 1)
+spawned uWSGI worker 9 (pid: 19506, cores: 1)
+spawned uWSGI worker 10 (pid: 19507, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 05:06:16 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 05:06:53 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x1e692f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e692f0 pid: 19528 (default app)
+spawned uWSGI master process (pid: 19528)
+spawned uWSGI worker 1 (pid: 19530, cores: 1)
+spawned uWSGI worker 2 (pid: 19531, cores: 1)
+spawned uWSGI worker 3 (pid: 19532, cores: 1)
+spawned uWSGI worker 4 (pid: 19533, cores: 1)
+spawned uWSGI worker 5 (pid: 19534, cores: 1)
+spawned uWSGI worker 6 (pid: 19535, cores: 1)
+spawned uWSGI worker 7 (pid: 19536, cores: 1)
+spawned uWSGI worker 8 (pid: 19537, cores: 1)
+Python auto-reloader enabled
+spawned uWSGI worker 9 (pid: 19538, cores: 1)
+spawned uWSGI worker 10 (pid: 19548, cores: 1)
+Internal Server Error: /xadmin/operation/coursecomments/9/update/
+Traceback (most recent call last):
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/sites.py", line 300, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/sites.py", line 208, in inner
+    return view(request, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 282, in view
+    return handler(request, *args, **kwargs)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/edit.py", line 282, in get
+    return self.get_response()
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/edit.py", line 502, in get_response
+    context = self.get_context()
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 80, in method
+    return filter_chain(filters, len(filters) - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 63, in filter_chain
+    return filter_chain(filters, token - 1, _inner_method, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 49, in filter_chain
+    return func()
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 62, in _inner_method
+    return fm(func if fargs[1] == '__' else func(), *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/base.py", line 74, in _inner_method
+    return func(self, *args, **kwargs)
+  File "/srv/Mxonline362/extra_apps/xadmin/views/edit.py", line 482, in get_context
+    'title': _('Change %s') % force_text(self.org_obj),
+  File "/home/ubuntu/py_vm/mxonline362/lib/python3.5/site-packages/django/utils/encoding.py", line 67, in force_text
+    s = str(s)
+TypeError: __str__ returned non-string (type Course)
+[uwsgi-python-reloader] module/file /srv/Mxonline362/apps/operation/models.py has been modified
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 19530)...
+Gracefully killing worker 2 (pid: 19531)...
+Gracefully killing worker 3 (pid: 19532)...
+Gracefully killing worker 4 (pid: 19533)...
+Gracefully killing worker 5 (pid: 19534)...
+Gracefully killing worker 6 (pid: 19535)...
+Gracefully killing worker 7 (pid: 19536)...
+Gracefully killing worker 8 (pid: 19537)...
+Gracefully killing worker 9 (pid: 19538)...
+Gracefully killing worker 10 (pid: 19548)...
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 5 buried after 2 seconds
+worker 6 buried after 2 seconds
+worker 7 buried after 2 seconds
+worker 8 buried after 2 seconds
+worker 9 buried after 2 seconds
+worker 10 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /srv/Mxonline362
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+[uWSGI] getting INI configuration from conf/uwsgi.ini
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 13:11:49 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x1cc4f50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1cc4f50 pid: 19528 (default app)
+gracefully (RE)spawned uWSGI master process (pid: 19528)
+spawned uWSGI worker 1 (pid: 19605, cores: 1)
+spawned uWSGI worker 2 (pid: 19606, cores: 1)
+spawned uWSGI worker 3 (pid: 19607, cores: 1)
+spawned uWSGI worker 4 (pid: 19608, cores: 1)
+spawned uWSGI worker 5 (pid: 19609, cores: 1)
+spawned uWSGI worker 6 (pid: 19610, cores: 1)
+spawned uWSGI worker 7 (pid: 19611, cores: 1)
+spawned uWSGI worker 8 (pid: 19612, cores: 1)
+spawned uWSGI worker 9 (pid: 19613, cores: 1)
+spawned uWSGI worker 10 (pid: 19614, cores: 1)
+Python auto-reloader enabled
+-------------------------
+-------------------------
+Not Found: /muieblackcat
+Not Found: /phpMyAdmin/scripts/setup.php
+Not Found: /phpmyadmin/scripts/setup.php
+Not Found: /pma/scripts/setup.php
+Not Found: /myadmin/scripts/setup.php
+Not Found: /MyAdmin/scripts/setup.php
+Not Found: /Diagnostics.asp
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:45:00 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:9000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x13e7430
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x13e7430 pid: 20508 (default app)
+spawned uWSGI master process (pid: 20508)
+spawned uWSGI worker 1 (pid: 20510, cores: 1)
+spawned uWSGI worker 2 (pid: 20511, cores: 1)
+spawned uWSGI worker 3 (pid: 20512, cores: 1)
+spawned uWSGI worker 4 (pid: 20513, cores: 1)
+spawned uWSGI worker 5 (pid: 20514, cores: 1)
+spawned uWSGI worker 6 (pid: 20515, cores: 1)
+spawned uWSGI worker 7 (pid: 20516, cores: 1)
+spawned uWSGI worker 8 (pid: 20517, cores: 1)
+Python auto-reloader enabled
+spawned uWSGI worker 9 (pid: 20526, cores: 1)
+spawned uWSGI worker 10 (pid: 20527, cores: 1)
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:46:14 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x96e430
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x96e430 pid: 20550 (default app)
+spawned uWSGI master process (pid: 20550)
+spawned uWSGI worker 1 (pid: 20552, cores: 1)
+spawned uWSGI worker 2 (pid: 20553, cores: 1)
+spawned uWSGI worker 3 (pid: 20554, cores: 1)
+spawned uWSGI worker 4 (pid: 20555, cores: 1)
+spawned uWSGI worker 5 (pid: 20556, cores: 1)
+spawned uWSGI worker 6 (pid: 20557, cores: 1)
+spawned uWSGI worker 7 (pid: 20558, cores: 1)
+spawned uWSGI worker 8 (pid: 20559, cores: 1)
+spawned uWSGI worker 9 (pid: 20560, cores: 1)
+spawned uWSGI worker 10 (pid: 20570, cores: 1)
+Python auto-reloader enabled
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:49:14 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17 (64bit) on [Thu May  3 17:49:33 2018] ***
+compiled with version: 5.4.0 20160609 on 26 April 2018 01:57:35
+os: Linux-4.4.0-1055-aws #64-Ubuntu SMP Thu Apr 5 17:06:36 UTC 2018
+nodename: ip-172-31-34-182
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /srv/Mxonline362
+detected binary path: /home/ubuntu/py_vm/mxonline362/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /srv/Mxonline362
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/ubuntu/py_vm/mxonline362
+Python main interpreter initialized at 0x1a25430
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 801944 bytes (783 KB) for 10 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a25430 pid: 20601 (default app)
+spawned uWSGI master process (pid: 20601)
+spawned uWSGI worker 1 (pid: 20603, cores: 1)
+spawned uWSGI worker 2 (pid: 20604, cores: 1)
+spawned uWSGI worker 3 (pid: 20605, cores: 1)
+spawned uWSGI worker 4 (pid: 20606, cores: 1)
+spawned uWSGI worker 5 (pid: 20607, cores: 1)
+spawned uWSGI worker 6 (pid: 20608, cores: 1)
+spawned uWSGI worker 7 (pid: 20609, cores: 1)
+spawned uWSGI worker 8 (pid: 20617, cores: 1)
+spawned uWSGI worker 9 (pid: 20618, cores: 1)
+Python auto-reloader enabled
+spawned uWSGI worker 10 (pid: 20621, cores: 1)
