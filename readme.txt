@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-t is a version control system.
-Git is free software.
-
-git add 
-git commit -m "è‡ªå®šä¹‰æè¿°"
-=======
 Git is a version control system.
 Git is free software.
 
 git add 
-git commit -m "×Ô¶¨ÒåÃèÊö"
->>>>>>> ee8c79914103b6226829fa7ba7143d96afda3498
+git commit -m "¿¿¿¿¿"
 
 git checkout -- readme.txt
 git reset HEAD readme.txt
@@ -22,22 +14,14 @@ git push origin master
 git clone git@github.com:srp527/Mxonline362.git
 
 
-<<<<<<< HEAD
-1.åœ¨æœ¬åœ°ç›®å½•ä¸‹å…³è”è¿œç¨‹repository ï¼š
+1.¿¿¿¿¿¿¿¿¿¿repository ¿
   git remote add origin git@github.com:git_username/repository_name.git
 
 
 
-2.å–æ¶ˆæœ¬åœ°ç›®å½•ä¸‹å…³è”çš„è¿œç¨‹åº“ï¼š
+2.¿¿¿¿¿¿¿¿¿¿¿¿¿¿
   git remote remove origin
 
 
-3.gitæ— æ³•pullä»“åº“refusing to merge unrelated histories
+3.git¿¿pull¿¿refusing to merge unrelated histories
   git pull origin master --allow-unrelated-histories
-=======
-
-
-
-
-
->>>>>>> ee8c79914103b6226829fa7ba7143d96afda3498
