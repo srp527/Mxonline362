@@ -1,10 +1,12 @@
 # Mxonline362
-Django2+python3+nginx+uwsgi  Mxonline
+
 
 #### 网站主页:http://srp.wangsir.wang
 
 #### 启动 
     python manage runserver
+#### 部署
+    Django2+python3+nginx+uwsgi
 
 ## 目录结构
 
